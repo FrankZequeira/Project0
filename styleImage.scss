@@ -1,0 +1,36 @@
+$imgPad: 25px;
+.galleryImg
+{
+  padding: $imgPad;
+}
+.galleryImg1
+{
+  @extend .galleryImg;
+  float: right;
+}
+@media only screen and (max-width: 1000px)
+{
+  .column
+  {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+  .column
+  {
+    width: 50%;
+  }
+}
+#formText
+{
+	padding: $imgPad;
+
+  button
+  {
+    background-color: #4CAF50;
+    border: none;
+    text-decoration: none;
+    color: white;
+  }
+}

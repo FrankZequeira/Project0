@@ -1,0 +1,27 @@
+.galleryImg, .galleryImg1 {
+  padding: 25px;
+}
+
+.galleryImg1 {
+  float: right;
+}
+
+@media only screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+#formText {
+  padding: 25px;
+}
+#formText button {
+  background-color: #4CAF50;
+  border: none;
+  text-decoration: none;
+  color: white;
+}

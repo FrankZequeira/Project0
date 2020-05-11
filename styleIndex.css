@@ -11,11 +11,11 @@ body {
 	margin: 0 auto;
 }
 
-header {
+#mainHeader {
   background: #55d6aa;
 }
 
-header::after {
+#mainHeader::after {
   content: '';
   display: table;
   clear: both;
@@ -71,7 +71,15 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
+.homeList
+{
+	list-style: none;
+}
 .col-sm-4
 {
   margin:15px;
+}
+.nameTab
+{
+	padding: 15px;
 }
