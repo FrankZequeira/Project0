@@ -4,88 +4,43 @@
         <title>Plug Point</title>
         <meta name = "viewpoint" content = "width=device-width", initial-scale = "1.0">
         <link rel = "stylesheet" href = "styleIndex.css">
+        <link rel = "stylesheet" href = "styleImage.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,600'>
-        <style>
-        table
-        {
-          border: 2px solid black;
-          border-collapse: collapse;
-          padding: 5px;
-        }
-        th,td
-        {
-          border: 1px  solid black;
-          padding: 5px;
-        }
-        </style>
+    </head>
 
-<header>
+<header id="mainHeader">
     <div class="container">
       <h1 class="logo"></h1>
       <img src="freePoint.png" height="45">
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutIndex.html">About</a></li>
+          <li><a href="galleryIndex.html">Gallery</a></li>
+          <li><a href="contactIndex.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
-    <body>
-    <div class="col-sm-4">
-      
-    </div>
-    <div class="col-sm-8">
 
-    <div>
+    <body>
+      <center>
+        <img src="welcomeLogo.png" height="200">
         <h4>
           Our website gives users the ability to:
         </h4>
-        <ol>
+        <ul class="homeList">
               <li>Find offers near current location.</li>
               <li>Monthly merch giveaways.</li>
               <li>Access to exclusive coupons.</li>
-        </ol>
-        <table>
-            <tr>
+        </ul>
+      </center>
 
-                <th colspan = "3" >Our Team:</th>
-
-            </tr>
-            <tr>
-                <th>First Name:</th>
-                <th>Last Name:</th>
-                <th>Major:</th>
-            </tr>
-            <tr>
-                <td>Rolando</td>
-                <td>Vera</td>
-                <td>Mechanical Engineer</td>
-            </tr>
-            <tr>
-                <td>Juan</td>
-                <td>Sanchez</td>
-                <td>Chemical Engineer</td>
-            </tr>
-            <tr>
-                <td>Jeswin</td>
-                <td>Wilson</td>
-                <td>Civil Engineer</td>
-            </tr>
-            <tr>
-                <td>Frank</td>
-                <td>Zequeira</td>
-                <td>Computer Engineer</td>
-            </tr>
-        </table>
-        <p id = bottom-link>Como equipo de hispanohablantes, nuestro sitio web
+        <div class="alert alert-info" role="alert">
+          Como equipo de hispanohablantes, nuestro sitio web
           se compromete a ofrecer un sitio web que sea amigable con nuestra
-          comunidad. </p>
-      <div style = "text-align: center">
-        <a href = "spanishIndex.html"> Haga clic aquí para traducir </a>
-      </div>
+          comunidad.<a href="spanishIndex.html" class="alert-link">   Haga clic aquí para traducir</a>.
+        </div>
       </body>
 </html>
